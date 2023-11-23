@@ -4,29 +4,16 @@ namespace SimpleCalculator.Tests
     public class CalculatorTests
     {
         [Test]
-        public void Add_WhenGivenTwoPositiveNumbers_ReturnsCorrectResult()
+        [TestCase(3, 5, 8)]
+        [TestCase(-10, 5, -5)]
+        [TestCase(0, 0, 0)]
+        public void Add_WhenGivenNumbers_ReturnsCorrectResult(int a, int b, int expectedResult)
         {
-            // Arrange
             Calculator calculator = new Calculator();
 
-            // Act
-            int result = calculator.Add(3, 5);
+            int result = calculator.Add(a, b);
 
-            // Assert
-            Assert.AreEqual(8, result);
-        }
-
-        [Test]
-        public void Add_WhenGivenNegativeAndPositiveNumbers_ReturnsCorrectResult()
-        {
-            // Arrange
-            Calculator calculator = new Calculator();
-
-            // Act
-            int result = calculator.Add(-10, 5);
-
-            // Assert
-            Assert.AreEqual(-5, result);
+            Assert.AreEqual(expectedResult, result);
         }
     }
 }

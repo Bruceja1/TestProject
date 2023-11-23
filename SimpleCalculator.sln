@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{148E96F9-3AF3-496D-AF13-A5FFFA06C892}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{148E96F9-3AF3-496D-AF13-A5FFFA06C892}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator.Tests", "SimpleCalculator.Tests\SimpleCalculator.Tests.csproj", "{83555A92-223D-4790-A3F3-F517569CF73B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCalculator.Tests", "SimpleCalculator.Tests\SimpleCalculator.Tests.csproj", "{83555A92-223D-4790-A3F3-F517569CF73B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorTests_xUnit", "CalculatorTests_xUnit\CalculatorTests_xUnit.csproj", "{DBB398A7-767F-4DBB-A91A-D9CB612AE33F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{83555A92-223D-4790-A3F3-F517569CF73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83555A92-223D-4790-A3F3-F517569CF73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83555A92-223D-4790-A3F3-F517569CF73B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB398A7-767F-4DBB-A91A-D9CB612AE33F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB398A7-767F-4DBB-A91A-D9CB612AE33F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB398A7-767F-4DBB-A91A-D9CB612AE33F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB398A7-767F-4DBB-A91A-D9CB612AE33F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
