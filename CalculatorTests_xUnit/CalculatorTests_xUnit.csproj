@@ -26,4 +26,8 @@
     <ProjectReference Include="..\SimpleCalculator\SimpleCalculator.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="bin\Debug\net7.0\" />
+  </ItemGroup>
+
 </Project>

@@ -4,24 +4,15 @@ namespace CalculatorTests_xUnit
 {
     public class CalculatorTests
     {
-        [Fact]
-        public void Add_WhenGivenTwoPositiveNumbers_ReturnsCorrectResult()
+        [Theory]
+        [TestDataFromFile(@"C:\Users\Bruce\Desktop\Data\testdata.txt")]
+        public void Add_WhenGivenNumbers_ReturnsCorrectResult(int a, int b, int expectedResult)
         {          
             Calculator calculator = new Calculator();
 
-            int result = calculator.Add(3, 5);
+            int result = calculator.Add(a, b);
 
-            Assert.Equal(8, result);
-        }
-
-        [Fact]
-        public void Add_WhenGivenNegativeAndPositiveNumbers_ReturnsCorrectResult()
-        {
-            Calculator calculator = new Calculator();
-
-            int result = calculator.Add(-10, 5);
-
-            Assert.Equal(-5, result);
+            Assert.Equal(expectedResult, result);
         }
     }
 }
