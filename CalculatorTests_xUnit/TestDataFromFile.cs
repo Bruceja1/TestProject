@@ -18,7 +18,7 @@ namespace CalculatorTests_xUnit
         }
 
         public override IEnumerable<object[]> GetData(MethodInfo testMethod)
-        {          
+        {
             var lines = File.ReadAllLines(_filePath);
 
             return lines.Select(line => line.Split(',').Select(int.Parse).Cast<object>().ToArray());
