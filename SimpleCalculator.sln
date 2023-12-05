@@ -5,11 +5,11 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{148E96F9-3AF3-496D-AF13-A5FFFA06C892}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCalculator.Tests", "SimpleCalculator.Tests\SimpleCalculator.Tests.csproj", "{83555A92-223D-4790-A3F3-F517569CF73B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorTests_NUnit", "SimpleCalculator.Tests\CalculatorTests_NUnit.csproj", "{83555A92-223D-4790-A3F3-F517569CF73B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorTests_xUnit", "CalculatorTests_xUnit\CalculatorTests_xUnit.csproj", "{DBB398A7-767F-4DBB-A91A-D9CB612AE33F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorTests_MSTest", "CalculatorTests_MSTest\CalculatorTests_MSTest.csproj", "{C4CD954C-BEEA-47A1-A5EB-6E7AFB11EF5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorTests_MSTest", "CalculatorTests_MSTest\CalculatorTests_MSTest.csproj", "{C4CD954C-BEEA-47A1-A5EB-6E7AFB11EF5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
