@@ -10,7 +10,7 @@ namespace CalculatorTests_MSTest
         {
             Calculator calculator = new Calculator();
             var result = calculator.Add(2, 5);
-            Assert.AreEqual(8, result);
+            Assert.AreEqual(7, result);
         }
     }
 }
