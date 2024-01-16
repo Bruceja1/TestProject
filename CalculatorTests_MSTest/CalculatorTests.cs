@@ -9,7 +9,7 @@ namespace CalculatorTests_MSTest
         public void Addition_InputIs2and5_Returns7()
         {
             Calculator calculator = new Calculator();
-            var result = calculator.Add(3, 5);
+            var result = calculator.Add(2, 5);
             Assert.AreEqual(8, result);
         }
     }
